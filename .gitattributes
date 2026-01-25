@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.bin binary
+*.png binary
+*.gif binary
+uv.lock linguist-generated
+tests/data/*.schema.json linguist-vendored
+tests/data/nvd/*.json linguist-vendored
