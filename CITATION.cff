@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If fwtriage helped your research, please cite it as below."
+type: software
+title: "fwtriage: evidence-first security triage for firmware images"
+authors:
+  - family-names: Florentino
+    given-names: Augusto
+license: Apache-2.0
+repository-code: "https://github.com/augustoflorentino/fwtriage"
+version: 0.1.0
+date-released: 2026-02-07
+keywords:
+  - firmware
+  - embedded security
+  - SBOM
+  - SARIF
+abstract: >-
+  fwtriage unpacks router, camera and embedded firmware images in memory,
+  reports what is inside, and grades findings on accounts, secrets, services,
+  components, binary hardening and image signing, each with the evidence
+  needed to reproduce it.
