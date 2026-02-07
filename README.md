@@ -1,18 +1,15 @@
-<div align="center">
+<p align="center"><img src="docs/assets/banner.png" alt="fwtriage, fast, evidence-first security triage for firmware images" width="100%"></p>
 
-# fwtriage
-
-**Fast, evidence-first security triage for firmware images.**
+<p align="center">
+  <a href="https://github.com/augustoflorentino/fwtriage/actions/workflows/ci.yml"><img src="https://github.com/augustoflorentino/fwtriage/actions/workflows/ci.yml/badge.svg" alt="ci"></a>
+  <img src="https://img.shields.io/badge/python-3.12%20%7C%203.13%20%7C%203.14-8787ff" alt="Python 3.12, 3.13, 3.14">
+  <img src="https://img.shields.io/badge/license-Apache--2.0-f0a030" alt="Apache-2.0">
+</p>
 
 Hand it a firmware image. In seconds it tells you what is inside, where the risk is, and
 how to see each finding with your own eyes.
 
-[![ci](https://github.com/augustoflorentino/fwtriage/actions/workflows/ci.yml/badge.svg)](https://github.com/augustoflorentino/fwtriage/actions/workflows/ci.yml)
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue)](./LICENSE)
-
-</div>
-
----
+<p align="center"><img src="docs/assets/scan.gif" alt="fwtriage scanning the OpenWrt 23.05.5 image for the TP-Link Archer C7 v5: layout, components, hardening and six findings" width="92%"></p>
 
 ```console
 $ pipx install git+https://github.com/augustoflorentino/fwtriage
