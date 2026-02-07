@@ -7,6 +7,10 @@ All notable changes to fwtriage are recorded here. The format follows
 
 ## [Unreleased]
 
+## 0.1.0 - 2026-02-07
+
+First public release.
+
 ### Added
 
 - Region identification and recursive unpacking of uImage, FIT, TRX, gzip, xz, LZMA,
